@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desarrollador de aplicaciones móviles">
+    <title>Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            max-width: 800px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.3em;
+            margin-bottom: 40px;
+        }
+
+        .apps {
+            margin-top: 50px;
+        }
+
+        .app-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .app-card h3 {
+            color: #764ba2;
+            margin-bottom: 10px;
+        }
+
+        .app-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .verification {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .verification p {
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        .verification a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .verification a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .subtitle {
+                font-size: 1em;
+            }
+            
+            .container {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>👨‍💻 Developer Portfolio</h1>
+        <p class="subtitle">Creando experiencias móviles increíbles</p>
+
+        <div class="apps">
+            <div class="app-card">
+                <h3>🎁 Bonus Flow</h3>
+                <p>Aplicación de recompensas donde los usuarios ganan coins viendo anuncios y pueden retirar dinero real a través de PayPal.</p>
+                <p><strong>Características:</strong> Unity Ads, Firebase, Sistema de retiros, Panel de administración</p>
+            </div>
+
+            <!-- Agrega más apps aquí cuando las desarrolles -->
+        </div>
+
+        <div class="verification">
+            <p>🔐 App Ads Verification</p>
+            <p><a href="/app-ads.txt" target="_blank">Ver app-ads.txt</a></p>
+        </div>
+    </div>
+</body>
+</html>
