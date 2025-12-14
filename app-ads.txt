@@ -1,17 +1,32 @@
-# App-ads.txt file
-# Este archivo verifica la propiedad de las aplicaciones para redes publicitarias
-# Formato: domain, publisher-id, relationship, certification-authority-id
-
-# Google AdMob
-# Descomenta y agrega tu ID de publisher cuando lo tengas
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
-
-# Unity Ads
-# unity.com, tu-organization-core-id, DIRECT, 96cabb5fbdde37a7
-
-# Instrucciones:
-# 1. Obtén tu Publisher ID de AdMob o Unity Ads
-# 2. Reemplaza los IDs de ejemplo con tus IDs reales
-# 3. Descomenta las líneas correspondientes
-# 4. Guarda y haz commit
-# 5. Las redes publicitarias verificarán este archivo en: https://tu-usuario.github.io/app-ads.txt
+tapjoy.com, 2fcf959eb7d74a25beb9dddcda6986fe, DIRECT, 29e595b1aeb59044
+rubiconproject.com, 12286, RESELLER, 0bfd66d529a55807
+webeyemob.com, 70096, RESELLER
+opera.com, 540679900, RESELLER, 6a698e2ec38404c6
+adcolony.com, 801e49d1be83b5f9, RESELLER, 1ad675c9dc6b5176
+pubmatic.com, 158060, RESELLER, 5d62403b186f2ace
+video.unrulymedia.com, 123476257, RESELLER
+indexexchange.com, 182257, REVENDEDOR
+appnexus.com, 6849, REVENDEDOR
+rubiconproject.com, 15268, REVENDEDOR
+rhythmone.com, 1234789257, REVENDEDOR, a670c89d4a324a47
+pubmatic.com, 160565, REVENDEDOR, 5d62403b186f2ace
+pubmatic.com, 160565, DIRECTO, 5d62403b186f2ace
+rangeglobal.com, 9888, DIRECTO
+rubiconproject.com, 17608, REVENDEDOR, 0bfd66d529a55807
+triplelift.com, 10522, REVENDEDOR, 6c33edb13117fd86
+smartadserver.com, 4052, REVENDEDOR
+synacor.com, 82460, DIRECT, e108f11b2cdf7d5b
+aol.com, 58935, RESELLER, e1a5b5b6e3255540
+yahoo.com, 58935, RESELLER, e1a5b5b6e3255540
+opera.com, pub6400708646336, RESELLER, 55a0c5fd6178de3
+opera.com, pub6584435113344, DIRECT, 55a0c5fd6178de3
+yahoo.com, 58935, RESELLER, e1a5b5b6e3255540
+triplelift.com, 10522, RESELLER, 6c33edb13117fd86
+appnexus.com, 13227, RESELLER
+video.unrulymedia.com, 123476257, REVENDEDOR
+rubiconproject.com, 17608, REVENDEDOR, 0bfd66d529a55807
+smartadserver.com, 4140, REVENDEDOR
+contextweb.com, 562791, REVENDEDOR, 89ff185a4c4e857c
+conversantmedia.com, 100269, REVENDEDOR, 03113cd04947736d
+pubmatic.com, 162223, DIRECTO, 5d62403b186f2ace
+smaato.com, 1100042823, REVENDEDOR, 07bcf65f187117b4
