@@ -5,6 +5,7 @@ Thumbs.db
 # Editor directories
 .vscode/
 .idea/
+info.txt
 
 # Temporary files
 *.log
