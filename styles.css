@@ -1,0 +1,75 @@
+body {
+    box-sizing: border-box;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.float-animation {
+    animation: float 3s ease-in-out infinite;
+}
+
+#app-wrapper {
+    background: #f8fafc;
+    color: #1e293b;
+}
+
+header {
+    background: linear-gradient(135deg, #3b82f615 0%, #8b5cf615 100%);
+}
+
+.avatar {
+    background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+    color: #ffffff;
+}
+
+#developer-name,
+#tagline,
+#about-section-title,
+#interests-section-title,
+#bio {
+    color: #1e293b;
+}
+
+#contact-email {
+    background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+    color: #ffffff;
+}
+
+.about-box {
+    background: #ffffff;
+    color: #1e293b;
+}
+
+footer {
+    background: linear-gradient(135deg, #3b82f610 0%, #8b5cf610 100%);
+    color: #1e293b;
+}
+
+@view-transition {
+    navigation: auto;
+}
