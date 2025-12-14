@@ -5,8 +5,7 @@ Sitio web personal de desarrollador independiente alojado en GitHub Pages.
 ## 🌐 URL del sitio
 
 El sitio está disponible en:
-- `https://chara95.github.io/` (si usas el repositorio especial `tu-usuario.github.io`)
-- `https://chara95.github.io/developer-site/` (si usas un repositorio normal)
+- `https://chara95.github.io/appnexo.github.io/`
 
 ## 📁 Estructura del proyecto
 
